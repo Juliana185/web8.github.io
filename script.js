@@ -38,7 +38,7 @@ if (form) {
         const formData = new FormData(form);
         const data = Object.fromEntries(formData.entries());
         try {
-            const response = await fetch('https://formcarry.com/s/xS5W407N85p', {
+            const response = await fetch('https://formcarry.com/s/5VY-8uLrxnS', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
